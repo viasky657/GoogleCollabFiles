@@ -1,0 +1,45 @@
+{
+  "type": "hqq",
+  "attn_config": {
+    "weight_quant_params": {
+      "nbits": 4,
+      "channel_wise": true,
+      "group_size": 64,
+      "optimize": true,
+      "round_zero": true
+    },
+    "scale_quant_params": {
+      "nbits": 8,
+      "channel_wise": true,
+      "group_size": 256,
+      "optimize": false
+    },
+    "zero_quant_params": {
+      "nbits": 8,
+      "channel_wise": false,
+      "group_size": null,
+      "optimize": false
+    }
+  },
+  "experts_config": {
+    "weight_quant_params": {
+      "nbits": 2,
+      "channel_wise": true,
+      "group_size": 16,
+      "optimize": true,
+      "round_zero": false
+    },
+    "scale_quant_params": {
+      "nbits": 8,
+      "channel_wise": true,
+      "group_size": 128,
+      "optimize": false
+    },
+    "zero_quant_params": {
+      "nbits": 8,
+      "channel_wise": false,
+      "group_size": null,
+      "optimize": false
+    }
+  }
+}
