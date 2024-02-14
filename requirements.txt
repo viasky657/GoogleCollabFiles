@@ -1,0 +1,10 @@
+emoji
+googletrans==4.0.0rc1
+keyboard
+pandas
+PyAudio
+pytchat
+requests
+torch
+unidic
+transformers
