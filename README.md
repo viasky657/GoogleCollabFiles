@@ -14,4 +14,6 @@ Step 5: Install and import libraries for Mixtral AI and for All AI Files
 ############################################################################################################################
 Step 6: Run the Model - Distilled Whisper, Gradio Stable Diffusion Cascade, and Voice AI for Ada including Model Running and Token saving (Short Term Memory and Long Term Memory with Zep). This Model Requires a A100 GPU to run at its most Optimal but other GPUs should work as well; the code execution just may not be as fast.
 #################################################################
-Note: You will need an Elevenlabs API Key to access the Elvenlabs AI voice option. 
+Step 7 (Alt.): If the Google environment does not support mic access, then run the last code block to run just the Mixtral model without it.
+##############################################################################
+Note: You will need an Elevenlabs API Key to access the Elevenlabs AI voice option. 
