@@ -1,4 +1,4 @@
-Ada AI is capable of accepting user input and storing token memory using Zep Memory. The AI can create images for the user by interfacing with the Stable Diffusion Cascade API. In addition, Ada can interface with the Google Serper API as an AI agent and allow it to search the internet for answers to questions. The goal was to create all of these functions with the least amount of memory requirements. Ada was also trained on TensorRT-LLM to speed up its processing time. Ada can also respond to the user with an elevenlabs voice if the user chooses this option. 
+Ada AI is capable of accepting user prompts within a quick amount of time due to the optimization of the Tensor-RT Engine. The goal was to create a high-functioning AI with the least amount of memory requirements. Ada was trained on TensorRT-LLM to speed up its processing time. 
 Here is the steps of how to set-up this file to run:
 
 ####################################################
